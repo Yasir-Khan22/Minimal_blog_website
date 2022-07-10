@@ -91,16 +91,17 @@ body {
   background: #fff;
 }
 .header {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .header .navbar {
+  height: 44px;
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
   font-size: var(--fs-400);
 }
 .navbar ul {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
 }
 .navbar ul li {
   list-style: none;
@@ -109,4 +110,12 @@ body {
 .navbar ul li a {
   text-decoration: none;
   color: var(--clr-primary);
+}
+main {
+  /* border: 2px solid red; */
+}
+main .container {
+  border: 2px solid teal;
+  width: 70%;
+  margin: 0 auto;
 }
