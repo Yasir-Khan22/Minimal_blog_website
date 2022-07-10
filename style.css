@@ -91,7 +91,7 @@ body {
   background: #fff;
 }
 .header {
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 .header .navbar {
   height: 60px;
