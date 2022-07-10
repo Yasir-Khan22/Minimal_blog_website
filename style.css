@@ -87,3 +87,26 @@ svg {
     scroll-behavior: auto !important;
   }
 }
+body {
+  background: #fff;
+}
+.header {
+  border: 2px solid red;
+}
+.header .navbar {
+  display: flex;
+  font-size: var(--fs-400);
+}
+.navbar ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 1rem;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--clr-primary);
+}
