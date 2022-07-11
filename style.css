@@ -154,8 +154,11 @@ main .container {
   margin: 0.75rem 0;
 }
 .header .navbar .list a {
-  transition: all 0.1s;
+  transition: all 0.01s;
 }
 .header .navbar .list a:hover {
+  color: var(--clr-tertiary);
+}
+.header .navbar .list a:focus {
   color: var(--clr-tertiary);
 }
