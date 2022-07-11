@@ -36,7 +36,6 @@
   margin: 0;
   padding: 0;
   font: inherit;
-  /* border: 2px solid red; */
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -100,7 +99,6 @@ body {
   align-items: center;
   justify-content: flex-end;
   font-size: var(--fs-400);
-  /* border: 2px solid red; */
 }
 .navbar ul {
   display: flex;
@@ -154,4 +152,10 @@ main .container {
 .thirdDiv,
 .fourthDiv {
   margin: 0.75rem 0;
+}
+.header .navbar .list a {
+  transition: all 0.1s;
+}
+.header .navbar .list a:hover {
+  color: var(--clr-tertiary);
 }
