@@ -151,7 +151,11 @@ main .container {
 .secondDiv,
 .thirdDiv,
 .fourthDiv {
-  margin: 0.75rem 0;
+  margin-top: 2rem;
+  /* margin: 0.75rem 0; */
+}
+main hr {
+  margin-top: 1.5rem;
 }
 .header .navbar .list a {
   transition: all 0.01s;
