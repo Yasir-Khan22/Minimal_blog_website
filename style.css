@@ -162,3 +162,33 @@ main .container {
 .header .navbar .list a:focus {
   color: var(--clr-tertiary);
 }
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-top: 2rem;
+}
+footer .container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+footer .container ul {
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .container ul li a {
+  font-size: 2rem;
+  color: hsl(0, 100%, 70%);
+}
+footer p {
+  margin-top: 1rem;
+  font-size: var(--fs-400);
+}
